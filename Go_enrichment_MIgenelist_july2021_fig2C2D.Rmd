@@ -1,0 +1,48 @@
+---
+title: "GO enrichment for MI gene list R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(clusterProfiler)
+library(org.Mm.eg.db)
+
+```
+
+```{r}
+gene1<- read.csv(file = 'topTG_genes_0.4_0.2diff.csv')
+
+gene1<-unique(gene1$top_genes)
+```
+```{r}
+r1<-enrichGO(gene1, 'org.Mm.eg.db',keyType='SYMBOL',ont='BP',pvalueCutoff=0.01)
+```
+```{r}
+barplot(r1, showCategory=10)
+```
+```{r}
+r4<- gofilter(r1
+              , level = 3)
+
+barplot(r4
+        , showCategory=10)
+```
+
+
+```{r}
+gene2<- read.csv(file = 'bottomTG_genes_0.4_0.2diff.csv')
+
+gene2<-unique(gene2$bottom_genes)
+```
+```{r}
+r2<-enrichGO(gene2, 'org.Mm.eg.db',keyType='SYMBOL',ont='BP',pvalueCutoff=0.01)
+barplot(r2, showCategory=20)
+```
+```{r}
+r5<- gofilter(r2
+              , level = 3)
+
+barplot(r5
+        , showCategory=10)
+```
+
