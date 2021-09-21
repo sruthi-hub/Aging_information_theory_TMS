@@ -6,7 +6,7 @@ Figure 1: Communication declines with age at teh single-cell level
 
 Figure 2: Some biological functions are preserved with aging
 
-Figure 3: How and why does this preservation happen?
+Figure 3: How does this preservation happen?
 
 Figure 4: Validation of conclusion across tissues
 
