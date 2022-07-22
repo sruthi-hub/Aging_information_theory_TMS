@@ -1,21 +1,16 @@
-# Aging_info_theory_TMS_FACS
-Goal is to understand how communication changes with aging from transcriptional regulatory network in Tabula Muris Senis : Aging single-cell RNA seq data
+# Manuscript on BioRxiv:
+The fidelity of genetic information transfer with aging segregates according to biological processes
+ Link:  https://www.biorxiv.org/content/10.1101/2022.07.18.500243v1
+
+
+# Abstract:
+Maintenance of cellular function requires highly coordinated communication between trillions of biomolecules. However, over time, communication deteriorates, thereby disrupting effective information flow and compromising cellular health. To quantify the age-related loss of molecular communication, we applied information theory to quantify communication efficiency between transcription factors (TF) and corresponding target genes (TGs). Using single cell RNA-seq data from the limb muscle of young, middle-aged, and aged mice, we found that the precision with which TFs regulate TGs diminished with age, but that information transfer was preferentially preserved in a subset of gene pairs associated with homeostasis—a phenomenon we termed “age-based canalization”. Collectively, these data suggest that aging may be accompanied by a reallocation of resources that favor messages crucial to maintenance of stability and survival.
 
 # Structure:
-Figure 1: Communication declines with age at the single-cell level 
+Figure 1: Useful information transmitted in transcriptional regulatory network declines with age as shown by decreasing mutual information
 
-Figure 2: Some biological functions are preserved with aging
+Figure 2: Loss of information with aging is driven by a decreased channel capacity
 
-Figure 3: How does this preservation happen?
+Figure 3: Certain gene pairs preserve useful information while others remain relatively constant.
 
-Figure 4: Validation of conclusion across tissues
-
-# For Nature Physics Journal:
-
-The main text (excluding abstract, Methods, references and figure legends) is 2,000-3,000 words. Articles have 4-6 display items (figures and/or tables). As a guideline, Articles allow up to 50 references (excluding those cited exclusively in Methods).
-
-The maximum title length is 15 words. The abstract is typically 150 words and is unreferenced; it contains a brief account of the background and rationale of the work, followed by a statement of the main conclusions introduced by the phrase "Here we show" or some equivalent. An introduction (without heading) of up to 500 words of referenced text expands on the background of the work (some overlap with the summary is acceptable), followed by a concise, focused account of the findings, ending with one or two short paragraphs of discussion. Articles are peer reviewed, include received/accepted dates and may be accompanied by supplementary information.
-
-It is key to do a literature review on how Channel Capacity has been used in biology/transcriptional regulatory network.
-
-
+Figure 4: Preserved genes are associated with homeostatic functions whereas compromised genes are associated with tissue adaptation.
