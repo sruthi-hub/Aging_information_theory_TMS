@@ -1,6 +1,6 @@
 # Manuscript on BioRxiv:
 The fidelity of genetic information transfer with aging segregates according to biological processes
- Link:  https://www.biorxiv.org/content/10.1101/2022.07.18.500243v1
+https://www.biorxiv.org/content/10.1101/2022.07.18.500243v1
 
 
 # Abstract:
