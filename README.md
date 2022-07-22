@@ -14,3 +14,5 @@ Figure 2: Loss of information with aging is driven by a decreased channel capaci
 Figure 3: Certain gene pairs preserve useful information while others remain relatively constant.
 
 Figure 4: Preserved genes are associated with homeostatic functions whereas compromised genes are associated with tissue adaptation.
+
+Email me for any questions at srs204@pitt.edu
