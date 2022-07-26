@@ -16,8 +16,12 @@ Figure 3: Certain gene pairs preserve useful information while others remain rel
 Figure 4: Preserved genes are associated with homeostatic functions whereas compromised genes are associated with tissue adaptation.
 
 # Raw data and intermediate files:
-https://doi.org/10.6084/m9.figshare.20379720
 Please check figshare to access the raw data.
+ 
+https://doi.org/10.6084/m9.figshare.20379720
+
+
+
 
 Email me for any questions at srs204@pitt.edu
 
