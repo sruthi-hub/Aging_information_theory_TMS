@@ -1,19 +1,19 @@
 # Manuscript on BioRxiv:
-The fidelity of genetic information transfer with aging segregates according to biological processes
+The fidelity of genetic information transfer with aging skeletal muscle segregates according to biological processes
 https://www.biorxiv.org/content/10.1101/2022.07.18.500243v1
 
 
 # Abstract:
-Maintenance of cellular function requires highly coordinated communication between trillions of biomolecules. However, over time, communication deteriorates, thereby disrupting effective information flow and compromising cellular health. To quantify the age-related loss of molecular communication, we applied information theory to quantify communication efficiency between transcription factors (TF) and corresponding target genes (TGs). Using single cell RNA-seq data from the limb muscle of young, middle-aged, and aged mice, we found that the precision with which TFs regulate TGs diminished with age, but that information transfer was preferentially preserved in a subset of gene pairs associated with homeostasis—a phenomenon we termed “age-based canalization”. Collectively, these data suggest that aging may be accompanied by a reallocation of resources that favor messages crucial to maintenance of stability and survival.
+Maintenance of organismal function requires tightly regulated biomolecular communication. However, with aging, communication deteriorates, thereby disrupting effective information flow. Using information theory applied to skeletal muscle single cell RNA-seq data from young, middle-aged, and aged animals, we quantified the loss of communication efficiency over time.  We considered communication channels between transcription factors (TF; ‘input message’) and corresponding target genes (TG; ‘output message’). Mutual information (MI), defined as the information effectively transmitted between TFs and TGs, declined with age. This decline was attributed to escalating biological noise and loss of precision with which TFs regulate TGs (i.e., channel capacity). When we ranked TF:TG pairs by MI, pairs associated with fatty acid oxidation displayed the greatest loss of communication with aging, while the system preserved communication between pairs related to RNA synthesis. These data suggest ineffective communication with aging against a backdrop of resource reallocation to support essential cellular functions. 
 
 # Structure:
-Figure 1: Useful information transmitted in transcriptional regulatory network declines with age as shown by decreasing mutual information
+Figure 1: Useful information transmitted in transcriptional regulatory network declines with age as shown by decreasing mutual information.
 
-Figure 2: Loss of information with aging is driven by a decreased channel capacity
+Figure 2: Channel capacity with age declines with age.
 
-Figure 3: Certain gene pairs preserve useful information while others remain relatively constant.
+Figure 3: TF:TG pairs can be segregated into a sub-set that display preserved information flow and channel capacity versus a sub-set in which information transfer is compromised.
 
-Figure 4: Preserved genes are associated with homeostatic functions whereas compromised genes are associated with tissue adaptation.
+Figure 4: Preserved and compromised genes displayed distinct enrichment to functional module.
 
 # Raw data and intermediate files:
 Please check figshare to access the raw data.
