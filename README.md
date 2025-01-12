@@ -17,11 +17,13 @@ Figure 4: Preserved and compromised genes displayed distinct enrichment to funct
 
 # Raw data and intermediate files:
 Please check figshare to access the raw data.
- 
 https://doi.org/10.6084/m9.figshare.20379720
 
+Pre-processing steps for Smartseq2 data used here.
+https://github.com/czbiohub-sf/tabula-muris-senis/tree/master
 
 
 
-Email me for any questions at srs204@pitt.edu
+
+Email me for any questions at sruthisivakumar.pitt@gmail.com
 
